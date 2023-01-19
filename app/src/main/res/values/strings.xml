@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">Give&amp;Take</string>
+    <string name="login">Login</string>
+    <string name="regisiter">Regisiter</string>
+    <string name="full_name">full name</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="phone">phone</string>
+    <string name="register">Register</string>
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="error_Register">Error Register</string>
+    <string name="Cancel">Cancel</string>
+    <string-array name="Option1">
+        <item>Other</item>
+        <item>House repair</item>
+        <item>House keeping</item>
+        <item>Gardening</item>
+        <item>Plumbing</item>
+        <item>Private lesson</item>
+        <item>Computer assistance</item>
+        <item>Phone assistance</item>
+        <item>Administrative assistance</item>
+        <item>Help Transport</item>
+    </string-array>
+
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="input_error_Israel_phone">enter a valid Israel number </string>
+
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+    <string name="computer">Computer</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Activity</string>
+    <string name="title_notifications">Profile</string>
+    <string name="all_user_registered">All User Registered</string>
+    <string name="all_post">All Post</string>
+    <string name="history">History</string>
+    <string name="web_client_id">xxxxxxxx..place your web client id here</string>
+    <string name="all_trades">All Trades</string>
+
+
+    <string-array name="City">
+
+        <item>Choose city</item>,
+        <item>Alma</item>,
+        <item>Amir</item>,
+        <item>Arugot</item>,
+        <item>Aseret</item>,
+        <item>En Ayyala</item>,
+        <item>En HaShelosha</item>,
+        <item>Evron</item>,
+        <item>Acre</item>,
+        <item>Afiqim</item>,
+        <item>Ahituv</item>,
+        <item>Allonim</item>,
+        <item>Ashdod</item>,
+        <item>Ashqelon</item>,
+        <item>Azor</item>,
+        <item>Bahan</item>,
+        <item>Baraq</item>,
+        <item>Bareqet</item>,
+        <item>Bat Hadar</item>,
+        <item>Bat Hefer</item>,
+        <item>Bat Yam</item>,
+        <item>Beersheba</item>,
+        <item>Ben Shemen-Kefar Hano`ar</item>,
+        <item>Bene Ziyyon</item>,
+        <item>Bet Alfa</item>,
+        <item>Bet Dagan</item>,
+        <item>Bet Oren</item>,
+        <item>Bet Shemesh</item>,
+        <item>Binyamina</item>,
+        <item>Biriyya</item>,
+        <item>Dabburiya</item>,
+        <item>Dimona</item>,
+        <item>Eilat</item>,
+        <item>Elyakhin</item>,
+        <item>Elyaqim</item>,
+        <item>Emunim</item>,
+        <item>Et Taiyiba</item>,
+        <item>Even Yehuda</item>,
+        <item>Gan Hayyim</item>,
+        <item>Gan Yavne</item>,
+        <item>Ganne Tiqwa</item>,
+        <item>Gedera</item>,
+        <item>Gibbeton</item>,
+        <item>Gimzo</item>,
+        <item>Ginnosar</item>,
+        <item>Giv`at Hayyim</item>,
+        <item>Hadar `Am</item>,
+        <item>Hadar Ramatayim</item>,
+        <item>Hadera</item>,
+        <item>Hadid</item>,
+        <item>Haifa</item>,
+        <item>HaKarmel</item>,
+        <item>Haluz</item>,
+        <item>Hazav</item>,
+        <item>Hazor Ashdod</item>,
+        <item>Hazor HaGelilit</item>,
+        <item>Herut</item>,
+        <item>Herzliya</item>,
+        <item>Hever</item>,
+        <item>Hod HaSharon</item>,
+        <item>Holon</item>,
+        <item>Hurfeish</item>,
+        <item>Jaffa</item>,
+        <item>Jerusalem</item>,
+        <item>Kadima</item>,
+        <item>Karkur</item>,
+        <item>Kefar Daniyyel</item>,
+        <item>Kefar Netter</item>,
+        <item>Kefar Witqin</item>,
+        <item>Kefar Yona</item>,
+        <item>Kfar Saba</item>,
+        <item>Liman</item>,
+        <item>Lod</item>,
+        <item>maalot Tarshiha</item>,
+        <item>Magen</item>,
+        <item>Maghar</item>,
+        <item>Mazkeret Batya</item>,
+        <item>Mazliah</item>,
+        <item>Mazor</item>,
+        <item>Mesillat Ziyyon</item>,
+        <item>Migdal</item>,
+        <item>Mikhmoret</item>,
+        <item>Misgav Regional Council</item>,
+        <item>Mizpe Netofa</item>,
+        <item>Modiin</item>,
+        <item>Moran</item>,
+        <item>Naham</item>,
+        <item>Nahariya</item>,
+        <item>Nazareth</item>,
+        <item>Nazerat `Illit</item>,
+        <item>Nesher</item>,
+        <item>Ness Ziona</item>,
+        <item>Netanya</item>,
+        <item>Netivot</item>,
+        <item>Newe Efrayim</item>,
+        <item>Newe Yamin</item>,
+        <item>Nir Zevi</item>,
+        <item>Nirim</item>,
+        <item>Nordiyya</item>,
+        <item>Ofaqim</item>,
+        <item>Or `Aqiva</item>,
+        <item>Or Yehuda</item>,
+        <item>Pardes Hanna Karkur</item>,
+        <item>Pardesiyya</item>,
+        <item>Pasuta</item>,
+        <item>Petah Tikwah</item>,
+        <item>Qiryat Ata</item>,
+        <item>Qiryat Bialik</item>,
+        <item>Qiryat Gat</item>,
+        <item>Qiryat Hayyim</item>,
+        <item>Qiryat Motzkin</item>,
+        <item>Qiryat Ono</item>,
+        <item>Qiryat Tiv`on</item>,
+        <item>Qiryat Yam</item>,
+        <item>Ramat Aviv</item>,
+        <item>Ramat Dawid</item>,
+        <item>Ramat Ef`al</item>,
+        <item>Ramat Gan</item>,
+        <item>Ramat HaSharon</item>,
+        <item>Ramat Poleg</item>,
+        <item>Ramat Yishay</item>,
+        <item>Ramla</item>,
+        <item>Ramot Naftali</item>,
+        <item>Rehovot</item>,
+        <item>Rinnatya</item>,
+        <item>Rishon LeZion</item>,
+        <item>Rishpon</item>,
+        <item>Safed</item>,
+        <item>Sarid</item>,
+        <item>Savyon</item>,
+        <item>Sde Boker</item>,
+        <item>Sde Warburg</item>,
+        <item>Sderot</item>,
+        <item>Sedot Yam</item>,
+        <item>Shamir</item>,
+        <item>Shave Ziyyon</item>,
+        <item>Shefayim</item>,
+        <item>Shelomi</item>,
+        <item>Shetulim</item>,
+        <item>Shoval</item>,
+        <item>Talme Menashe</item>,
+        <item>Tel Aviv</item>,
+        <item>Tel Mond</item>,
+        <item>Tiberias</item>,
+        <item>Timrat</item>,
+        <item>Tirat Karmel</item>,
+        <item>Tirat Yehuda</item>,
+        <item>Urim</item>,
+        <item>Yaqum</item>,
+        <item>Yavne</item>,
+        <item>Yehud</item>,
+        <item>Zoran</item>
+    </string-array>
+
+
+    <string-array name="Hours">
+        <item>0.5</item>,
+        <item>1</item>,
+        <item>1.5</item>,
+        <item>2.5</item>
+        <item>2.5</item>
+        <item>2.5</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4.5</item>
+        <item>5</item>
+        <item>5+</item>
+    </string-array>
+
+
+</resources>
+

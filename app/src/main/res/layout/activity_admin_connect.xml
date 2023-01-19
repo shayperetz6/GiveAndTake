@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cadetblue"
+    tools:context=".Admin.AdminConnect">
+
+
+    <TextView
+        android:id="@+id/User_txt_view"
+        android:layout_width="406dp"
+        android:layout_height="65dp"
+        android:fontFamily="@font/arizonia"
+        android:lineSpacingExtra="18sp"
+        android:text="Admin Connector"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/View_User"
+        android:layout_width="155dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@android:color/transparent"
+
+        android:text="Show Users"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/allpostadmin"
+
+        android:layout_width="155dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="53dp"
+
+        android:backgroundTint="@android:color/transparent"
+        android:text="@string/all_post"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ViewAllTrades"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/ViewAllTrades"
+
+        android:layout_width="155dp"
+        android:layout_height="134dp"
+        android:layout_marginEnd="30dp"
+
+        android:backgroundTint="@android:color/transparent"
+        android:text="@string/all_trades"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/ViewAllHistory"
+
+        android:layout_width="155dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="53dp"
+
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="22dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="All History"
+        app:layout_constraintBottom_toTopOf="@+id/ViewAllTrades"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/View_User"
+        app:layout_constraintTop_toBottomOf="@+id/User_txt_view"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/disconnect_admin"
+
+        android:layout_width="354dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Disconnect"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.778" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

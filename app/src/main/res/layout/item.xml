@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/holo_orange_dark"
+    app:cardCornerRadius="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="188dp"
+        android:layout_margin="4dp"
+
+        android:background="@color/cadetblue">
+
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="2dp"
+            android:text="Posted by:"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/NameAsk"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="2dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/publicated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="211dp"
+            android:layout_marginTop="2dp"
+            android:text="Date of publication:"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/DateAsk"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="324dp"
+            android:layout_marginTop="2dp"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/HoursAsk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="140dp"
+            android:layout_toEndOf="@+id/HoursText"
+            android:text="Hours"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/HoursText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="140dp"
+            android:text="Estimated Time:"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="154dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="58dp">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/TakeOption"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/TakeText"
+            android:text="TakeOp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/CityOption"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="120dp"
+            android:layout_toEndOf="@+id/CityText"
+            android:text="CityOp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/CityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="120dp"
+            android:text="City:"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/TakeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="30dp"
+            android:text="This user needs:"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/GiveText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="160dp"
+            android:text="You can offer:"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/GiveOption"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="160dp"
+            android:layout_toEndOf="@+id/GiveText"
+            android:text="GiveOp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

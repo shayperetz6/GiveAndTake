@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    app:cardCornerRadius="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+
+        android:background="@android:color/transparent">
+
+
+        <TextView
+            android:id="@+id/history_name_posted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@+id/StatusImagView"
+            android:text="UserPost"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/history_name_trade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/history_name_posted"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/StatusImagView"
+            android:text="UserTrade"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/history_Date"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TakeText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/StatusImagView"
+            android:text="Date"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/StatusImagView"
+            android:layout_width="62dp"
+            android:layout_height="92dp"
+            android:padding="2dp">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/history_TakeOption"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="12dp"
+            android:text="TakeOp"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/TakeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="228dp"
+            android:layout_marginTop="52dp"
+            android:text="Needs:"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/GiveText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="228dp"
+            android:layout_marginTop="8dp"
+            android:text="Can give:"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/history_GiveOption"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/GiveText"
+            android:text="GiveOp"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "603061167992",
+    "firebase_url": "https://give-and-take-c5a5f-default-rtdb.firebaseio.com",
+    "project_id": "give-and-take-c5a5f",
+    "storage_bucket": "give-and-take-c5a5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603061167992:android:fb9dd3781c7625432bca8d",
+        "android_client_info": {
+          "package_name": "com.android.giveandtake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603061167992-pg68dbgqthonpnich26b2palv8v596ju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.giveandtake",
+            "certificate_hash": "1c701c8f04c4e2c49efe7e89d677639b2c8f18d3"
+          }
+        },
+        {
+          "client_id": "603061167992-n1crmvmobdigi0ksr2ujccu19saojht2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdVcbf11JqHovPxMlNIVfIK1gb2wAvag0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603061167992-n1crmvmobdigi0ksr2ujccu19saojht2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
